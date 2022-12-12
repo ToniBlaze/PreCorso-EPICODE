@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrazione a ToniMusic</title>
+</head>
+<body>
+    <h1>Registrazione a ToniMusic</h1>
+    <h2>La migliore applicazione multimediale sul mercato!</h2>
+    <pre>
+        
+        
+        <h3>  Compila il form per registrarti: </h3>
+    </pre>
+    <form onsubmit="alert('Registrazione inviata!')">
+        <div><input type="text" placeholder="Il tuo nome"></div>
+        <div><input type="text" placeholder="Il tuo cognome"></div>
+        <div><input type="email" placeholder="Scrivi la tua email"></div>
+        <div><input type="password" placeholder="Digita la tua password"></div>
+        <div><input type="date"></div>
+        <div><input type="phonenumber"></div>
+        <div><h4>Scegli le tue preferenze</h4></div>
+        <div><p>Techno   <input type="checkbox"></p>
+        <p>Pop   <input type="checkbox"></p>
+        <p>Rap & HipHop   <input type="checkbox"></p>
+        <p>Classica    <input type="checkbox"></p>
+        <p>Rock  <input type="checkbox"></p>
+        </div>
+        
+        <h4>Accetta termini e condizioni</h4>
+        <div><input type="radio"></div>
+        <button type="submit">Invia registrazione</button>
+    </form>
+</body>
+</html>
